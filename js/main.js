@@ -1,3 +1,10 @@
+/**
+ * https://github.com/Mennauu/js-clock
+ * MIT licensed
+ *
+ * Copyright (c) 2019 menno.work - A project by Menno de Vries
+ */
+
 var today = new Date()
 const secondHand = document.querySelector('.second-hand')
 const minuteHand = document.querySelector('.minute-hand')
