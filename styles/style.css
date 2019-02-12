@@ -1,10 +1,20 @@
-/**
- * https://github.com/Mennauu/js-clock
- * MIT licensed
- *
- * Copyright (c) 2019 menno.work - A project by Menno de Vries
- */
+/********************************
+***                           ***
+******      Stylesheet     ******
+***                           ***
+* Copyright (c) 2019 menno.work *
+*********************************/
+*,
+*::before,
+*::after {box-sizing: border-box;}
+
+html {font-size: 16px;}
+
 body {
+  margin: 0;
+  font-family: "Nunito sans", Roboto, "Helvetica Neue", Calibri;
+  font-size: 1rem;
+  line-height: 1.5;
   background-color: #282e3a;
   display: flex;
   align-items: center;

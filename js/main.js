@@ -1,14 +1,10 @@
-/**
- * https://github.com/Mennauu/js-clock
- * MIT licensed
- *
- * Copyright (c) 2019 menno.work - A project by Menno de Vries
- */
-
+/********************************
+***                           ***
+******      JavaScript     ******
+***                           ***
+* Copyright (c) 2019 menno.work *
+*********************************/
 var today = new Date()
-const secondHand = document.querySelector('.second-hand')
-const minuteHand = document.querySelector('.minute-hand')
-const hourHand = document.querySelector('.hour-hand')
 
 function updateTime() {
   today = new Date()
@@ -17,6 +13,10 @@ function updateTime() {
 }
 
 function updateHands() {
+  const secondHand = document.querySelector('.second-hand')
+  const minuteHand = document.querySelector('.minute-hand')
+  const hourHand = document.querySelector('.hour-hand')
+
   secondHand.style.transform = 'rotate(' + today.getSeconds() * 6 + 'deg)'
   minuteHand.style.transform = 'rotate(' + today.getMinutes() * 6 + 'deg)'
   hourHand.style.transform = 'rotate(' + today.getHours() * 30 + 'deg)'

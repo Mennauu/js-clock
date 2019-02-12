@@ -1,3 +1,3 @@
 # Ticking analog clock
 
-![Analog clock](./assets/clock.jpg)
+![Analog clock](./assets/preview.jpg)
